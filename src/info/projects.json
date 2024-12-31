@@ -1,0 +1,26 @@
+{
+    "overallDescription" : "Some description",
+    "projectList" : [
+        {
+            "title" : "SomeProject",
+            "link" : "https://github.com/DevilUnraveled/SomeProject",
+            "description" : "Some description",
+            "imgPath" : "thumbnails/project-img1.png",
+            "type" : "Personal"
+        },
+        {
+            "title" : "SomeProject",
+            "link" : "https://github.com/DevilUnraveled/SomeProject",
+            "description" : "Some description",
+            "imgPath" : "thumbnails/project-img2.png",
+            "type" : "Personal"
+        },
+        {
+            "title" : "SomeProject",
+            "link" : "https://github.com/DevilUnraveled/SomeProject",
+            "description" : "Some description",
+            "imgPath" : "thumbnails/project-img3.png",
+            "type" : "Personal"
+        }
+    ]
+}
