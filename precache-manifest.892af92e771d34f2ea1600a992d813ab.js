@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d055878c7c1092dc2b44cd2594b0d6b6",
+    "revision": "32f5395e910de561f867d5cd79994b5e",
     "url": "/srushti-lolusare/index.html"
   },
   {
-    "revision": "3b398b28dcb0f0491fb0",
+    "revision": "a913d04ac697b7a5803c",
     "url": "/srushti-lolusare/static/css/2.cc663730.chunk.css"
   },
   {
-    "revision": "1910421ac3d57f335130",
-    "url": "/srushti-lolusare/static/css/main.dc80bf57.chunk.css"
+    "revision": "99fc6cf90f942f2e4023",
+    "url": "/srushti-lolusare/static/css/main.9cba2d79.chunk.css"
   },
   {
-    "revision": "3b398b28dcb0f0491fb0",
-    "url": "/srushti-lolusare/static/js/2.c4ca45e4.chunk.js"
+    "revision": "a913d04ac697b7a5803c",
+    "url": "/srushti-lolusare/static/js/2.1f34dcaa.chunk.js"
   },
   {
     "revision": "268cbd87c1870a295ec8",
     "url": "/srushti-lolusare/static/js/3.b8a84e90.chunk.js"
   },
   {
-    "revision": "1910421ac3d57f335130",
-    "url": "/srushti-lolusare/static/js/main.302c6875.chunk.js"
+    "revision": "99fc6cf90f942f2e4023",
+    "url": "/srushti-lolusare/static/js/main.6cf8a2a9.chunk.js"
   },
   {
     "revision": "78112df29960f46fa806",
