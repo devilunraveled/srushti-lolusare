@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1bf1181c57d4980d2509249953b448ba",
+    "revision": "c2bb06f899503eba846cd3f4b075730f",
     "url": "/srushti-lolusare/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/srushti-lolusare/static/css/2.cc663730.chunk.css"
   },
   {
-    "revision": "54efcececfe5d8338bb1",
-    "url": "/srushti-lolusare/static/css/main.efcd9c8b.chunk.css"
+    "revision": "e65b055d90b1ecf1b555",
+    "url": "/srushti-lolusare/static/css/main.344489cd.chunk.css"
   },
   {
     "revision": "ae8d9caa5fb8cc2374a5",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/srushti-lolusare/static/js/3.b8a84e90.chunk.js"
   },
   {
-    "revision": "54efcececfe5d8338bb1",
+    "revision": "e65b055d90b1ecf1b555",
     "url": "/srushti-lolusare/static/js/main.e8f1b9e8.chunk.js"
   },
   {
