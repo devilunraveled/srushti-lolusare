@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9228b4420fdc822305f7e12f4b55610",
+    "revision": "1bf1181c57d4980d2509249953b448ba",
     "url": "/srushti-lolusare/index.html"
   },
   {
-    "revision": "a913d04ac697b7a5803c",
+    "revision": "ae8d9caa5fb8cc2374a5",
     "url": "/srushti-lolusare/static/css/2.cc663730.chunk.css"
   },
   {
-    "revision": "1df2e437020ab456305e",
-    "url": "/srushti-lolusare/static/css/main.71c892d6.chunk.css"
+    "revision": "54efcececfe5d8338bb1",
+    "url": "/srushti-lolusare/static/css/main.efcd9c8b.chunk.css"
   },
   {
-    "revision": "a913d04ac697b7a5803c",
-    "url": "/srushti-lolusare/static/js/2.1f34dcaa.chunk.js"
+    "revision": "ae8d9caa5fb8cc2374a5",
+    "url": "/srushti-lolusare/static/js/2.2b71052d.chunk.js"
   },
   {
     "revision": "268cbd87c1870a295ec8",
     "url": "/srushti-lolusare/static/js/3.b8a84e90.chunk.js"
   },
   {
-    "revision": "1df2e437020ab456305e",
-    "url": "/srushti-lolusare/static/js/main.d9138b52.chunk.js"
+    "revision": "54efcececfe5d8338bb1",
+    "url": "/srushti-lolusare/static/js/main.e8f1b9e8.chunk.js"
   },
   {
     "revision": "78112df29960f46fa806",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/srushti-lolusare/static/media/banner-bg.5f3ca497.png"
   },
   {
+    "revision": "8a5d459090c121827b0f7533ee2d1165",
+    "url": "/srushti-lolusare/static/media/behance.8a5d4590.svg"
+  },
+  {
     "revision": "d64094774a77a02c2c22356681131cb8",
     "url": "/srushti-lolusare/static/media/color-sharp.d6409477.png"
   },
@@ -62,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9228c17c13a87653f1b8ed01a3ff306",
     "url": "/srushti-lolusare/static/media/footer-bg.e9228c17.png"
+  },
+  {
+    "revision": "81ff4e970a39053a0acdc10fd58dc5c4",
+    "url": "/srushti-lolusare/static/media/instagram.81ff4e97.svg"
+  },
+  {
+    "revision": "dff2b6246274897c980cd8a354f7f979",
+    "url": "/srushti-lolusare/static/media/linkedIn.dff2b624.svg"
   },
   {
     "revision": "06e733283fa43d1dd57738cfc409adbd",
@@ -86,18 +98,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19e4204daee7b06ccd0aa7807bc37653",
     "url": "/srushti-lolusare/static/media/meter3.19e4204d.svg"
-  },
-  {
-    "revision": "dff2b6246274897c980cd8a354f7f979",
-    "url": "/srushti-lolusare/static/media/nav-icon1.dff2b624.svg"
-  },
-  {
-    "revision": "0393a6c85ddc105c9304f0f7787ddaea",
-    "url": "/srushti-lolusare/static/media/nav-icon2.0393a6c8.svg"
-  },
-  {
-    "revision": "81ff4e970a39053a0acdc10fd58dc5c4",
-    "url": "/srushti-lolusare/static/media/nav-icon3.81ff4e97.svg"
   },
   {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
