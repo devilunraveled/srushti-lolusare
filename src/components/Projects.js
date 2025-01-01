@@ -12,15 +12,16 @@ export const Projects = () => {
     const ProjectList = projectInformation.projectList;
 
     const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        centerPadding: '0px',
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      centerMode: true,
+      centerPadding: "15%",
+      focusOnSelect: true, // Allow clicking to focus
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
     };
 
     function SampleNextArrow(props) {
@@ -67,8 +68,8 @@ export const Projects = () => {
         );
     }
 
-    const personalProjects = ProjectList.filter(project => project.type === "personal");
-    const professionalProjects = ProjectList.filter(project => project.type !== "personal");
+    const personalProjects = ProjectList.filter(project => project.type === "Personal");
+    const professionalProjects = ProjectList.filter(project => project.type !== "Personal");
 
     return (
         <section className="project" id="projects">
@@ -78,7 +79,7 @@ export const Projects = () => {
 
             <Container>
                 <Row size = {20}>
-                    <Col size={12}>
+                    <Col size={10}>
                         <Tab.Container id="projects-tabs" defaultActiveKey="second">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
@@ -90,35 +91,26 @@ export const Projects = () => {
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
-                                    <Row>
-                                        {ProjectList.map((project, index) => (
-                                            <ProjectCard
-                                                key={index}
-                                                {...project}
-                                            />
-                                        ))}
-                                    </Row>
+                                    <div className="project-slider">
+                                        <Slider {...settings}>
+                                            {professionalProjects.map((project, index) => (
+                                                <div key={index} className="project-slider-item">
+                                                    <ProjectCard {...project} />
+                                                </div>
+                                            ))}
+                                        </Slider>
+                                    </div>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    <Slider {...settings} 
-                                        justifyContent="center"
-
-                                    >
-                                        {ProjectList.map((project, index) => (
-                                            <div 
-                                                key={index} 
-                                                style={{
-                                                    display: 'flex', 
-                                                    justifyContent: 'center', 
-                                                    alignItems: 'center'
-                                                }}
-                                            >
-                                                <ProjectCard
-                                                    {...project}
-                                                />
-                                            </div>
-                                        ))}
-                                    </Slider>
+                                    <div className="project-slider">
+                                        <Slider {...settings}>
+                                            {personalProjects.map((project, index) => (
+                                                <div key={index} className="project-slider-item">
+                                                    <ProjectCard {...project} />
+                                                </div>
+                                            ))}
+                                        </Slider>
+                                    </div>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>

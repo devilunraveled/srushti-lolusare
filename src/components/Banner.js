@@ -13,7 +13,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(50);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "a Designer", "an Artist", "a Delusional", UserInfo.firstName ]; ;
+    const toRotate = UserInfo.roles; 
     const period = 2000;
 
 
@@ -61,8 +61,8 @@ export const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>Hi, I am <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "a Designer", "an Artist", "a Delusional" ]'><span className="wrap">{text}</span></span></h1>
+                                    <span className="tagline">Hi, I am</span>
+                                    <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "a Designer", "an Artist", "a Delusional" ]'><span className="wrap">{text}</span></span></h1>
                                     <p>{UserInfo.shortDescription}</p>
                                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                                 </div>}

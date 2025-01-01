@@ -19,8 +19,15 @@
             "title" : "SomeProject",
             "link" : "https://github.com/DevilUnraveled/SomeProject",
             "description" : "Some description",
+            "imgPath" : "thumbnails/project-img2.png",
+            "type" : "Professional"
+        },
+        {
+            "title" : "SomeProject",
+            "link" : "https://github.com/DevilUnraveled/SomeProject",
+            "description" : "Some description",
             "imgPath" : "thumbnails/project-img3.png",
-            "type" : "Personal"
+            "type" : "Professional"
         }
     ]
 }

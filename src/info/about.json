@@ -2,5 +2,6 @@
     "firstName" : "Srushti",
     "lastName" : "Lolusare",
     "shortDescription" : "I am a little cwazy",
-    "longDescription" : "I am cwazy"
+    "longDescription" : "I am cwazy",
+    "roles" : [ "a Designer", "an Artist", "Srushti"]
 }
